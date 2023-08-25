@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/Users/zhongyijiang/Desktop/pico/temp_oled/build/CMakeFiles/ELF2UF2Build"
+			"file" : "/Users/zhongyijiang/Desktop/pico/pico_temp_oled/build/CMakeFiles/ELF2UF2Build"
 		},
 		{
-			"file" : "/Users/zhongyijiang/Desktop/pico/temp_oled/build/CMakeFiles/ELF2UF2Build.rule"
+			"file" : "/Users/zhongyijiang/Desktop/pico/pico_temp_oled/build/CMakeFiles/ELF2UF2Build.rule"
 		},
 		{
-			"file" : "/Users/zhongyijiang/Desktop/pico/temp_oled/build/CMakeFiles/ELF2UF2Build-complete.rule"
+			"file" : "/Users/zhongyijiang/Desktop/pico/pico_temp_oled/build/CMakeFiles/ELF2UF2Build-complete.rule"
 		},
 		{
-			"file" : "/Users/zhongyijiang/Desktop/pico/temp_oled/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule"
+			"file" : "/Users/zhongyijiang/Desktop/pico/pico_temp_oled/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule"
 		},
 		{
-			"file" : "/Users/zhongyijiang/Desktop/pico/temp_oled/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule"
+			"file" : "/Users/zhongyijiang/Desktop/pico/pico_temp_oled/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule"
 		},
 		{
-			"file" : "/Users/zhongyijiang/Desktop/pico/temp_oled/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule"
+			"file" : "/Users/zhongyijiang/Desktop/pico/pico_temp_oled/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule"
 		},
 		{
-			"file" : "/Users/zhongyijiang/Desktop/pico/temp_oled/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule"
+			"file" : "/Users/zhongyijiang/Desktop/pico/pico_temp_oled/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule"
 		},
 		{
-			"file" : "/Users/zhongyijiang/Desktop/pico/temp_oled/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule"
+			"file" : "/Users/zhongyijiang/Desktop/pico/pico_temp_oled/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule"
 		},
 		{
-			"file" : "/Users/zhongyijiang/Desktop/pico/temp_oled/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule"
+			"file" : "/Users/zhongyijiang/Desktop/pico/pico_temp_oled/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule"
 		},
 		{
-			"file" : "/Users/zhongyijiang/Desktop/pico/temp_oled/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule"
+			"file" : "/Users/zhongyijiang/Desktop/pico/pico_temp_oled/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule"
 		}
 	],
 	"target" : 

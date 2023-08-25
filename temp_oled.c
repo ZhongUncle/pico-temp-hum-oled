@@ -309,15 +309,67 @@ float read_onboard_temperature(const char unit) {
     return -1.0f;
 }
 
+/* 温度湿度 DHT11 传感器部分 */
+const uint DHT_PIN = 16;
+const uint MAX_TIMINGS = 85;
+
+typedef struct {
+    float humidity;
+    float temperature;
+} dht_reading;
+
+void read_from_dht(dht_reading *result) {
+    //信号值有40bit，也就是5个字节
+    int data[5] = {0, 0, 0, 0, 0};
+    uint last = 1;
+    uint j = 0;
+
+    //方向是DHT_PIN到GPIO_OUT，dir是direction
+    gpio_set_dir(DHT_PIN, GPIO_OUT);
+    //驱动DHT_PIN为低
+    gpio_put(DHT_PIN, 0);
+    sleep_ms(18);
+    gpio_set_dir(DHT_PIN, GPIO_IN);
+
+    for (uint i = 0; i < MAX_TIMINGS; i++) {
+        uint count = 0;
+        //如果DHT_PIN为高电平1，那么循环
+        while (gpio_get(DHT_PIN) == last) {
+            count++;
+            sleep_us(1);
+            if (count == 255) break;
+        }
+        last = gpio_get(DHT_PIN);
+        if (count == 255) break;
+
+        if ((i >= 4) && (i % 2 == 0)) {
+            data[j / 8] <<= 1;
+            if (count > 46) data[j / 8] |= 1;
+            j++;
+        }
+    }
+
+    if ((j >= 40) && (data[4] == ((data[0] + data[1] + data[2] + data[3]) & 0xFF))) {
+        result->humidity = (float) ((data[0] << 8) + data[1]) / 10;
+        if (result->humidity > 100) {
+            result->humidity = data[0];
+        }
+        result->temperature = (float) (((data[2] & 0x7F) << 8) + data[3]) / 10;
+        if (result->temperature > 125) {
+            result->temperature = data[2];
+        }
+        if (data[2] & 0x80) {
+            result->temperature = -result->temperature;
+        }
+    } else {
+        printf("Bad data\n");
+    }
+}
+
 int main() {
     stdio_init_all();
-    
-    /* Initialize hardware AD converter, enable onboard temperature sensor and
-     *   select its channel (do this once for efficiency, but beware that this
-     *   is a global operation). */
-    adc_init();
-    adc_set_temp_sensor_enabled(true);
-    adc_select_input(4);
+    /* 初始化 GPIO */
+    gpio_init(DHT_PIN);
     
     // I2C is "open drain", pull ups to keep signal high when no data is being sent
     i2c_init(i2c_default, SSD1306_I2C_CLK * 1000);
@@ -326,8 +378,6 @@ int main() {
     gpio_pull_up(PICO_DEFAULT_I2C_SDA_PIN);
     gpio_pull_up(PICO_DEFAULT_I2C_SCL_PIN);
     
-    
-
     // run through the complete initialization process
     SSD1306_init();
 
@@ -343,23 +393,23 @@ int main() {
     /* 计算frame_area图像缓冲有多大 */
     calc_render_area_buflen(&frame_area);
     
-    /* 清零画面 */
-    /* 这个数组是显示缓存，用来存放一些图像或者内容 */
     uint8_t buf[SSD1306_BUF_LEN];
-    /* buf数组内容设置为0，不然可能会花屏 */
     memset(buf, 0, SSD1306_BUF_LEN);
     render(buf, &frame_area);
     
-    float a = 0;
     char text[16];
-    
     while (true) {
-        float temperature = read_onboard_temperature(TEMPERATURE_UNITS);
-        sprintf(text, "CPU temp = %.02f %c\n", temperature, TEMPERATURE_UNITS);
+        dht_reading reading;
+        read_from_dht(&reading);
+        
         memset(buf, 0, SSD1306_BUF_LEN);
+        float temperature = reading.temperature;
+        sprintf(text, "temp = %.02f %c\n", temperature, TEMPERATURE_UNITS);
+        printf(text, "temp = %.02f %c\n", temperature, TEMPERATURE_UNITS);
         WriteString(buf, 0, 0, text);
         
         render(buf, &frame_area);
+        
         sleep_ms(2000);
     }
 }
