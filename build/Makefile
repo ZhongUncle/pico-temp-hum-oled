@@ -57,10 +57,10 @@ RM = /usr/local/Cellar/cmake/3.27.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zhongyijiang/Desktop/pico/pico_temp_oled
+CMAKE_SOURCE_DIR = /Users/zhongyijiang/Desktop/pico/pico-temp-hum
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zhongyijiang/Desktop/pico/pico_temp_oled/build
+CMAKE_BINARY_DIR = /Users/zhongyijiang/Desktop/pico/pico-temp-hum/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhongyijiang/Desktop/pico/pico_temp_oled/build/CMakeFiles /Users/zhongyijiang/Desktop/pico/pico_temp_oled/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhongyijiang/Desktop/pico/pico-temp-hum/build/CMakeFiles /Users/zhongyijiang/Desktop/pico/pico-temp-hum/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhongyijiang/Desktop/pico/pico_temp_oled/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhongyijiang/Desktop/pico/pico-temp-hum/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,17 +117,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named temp_oled
+# Target rules for targets named pico-temp-hum
 
 # Build rule for target.
-temp_oled: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 temp_oled
-.PHONY : temp_oled
+pico-temp-hum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-temp-hum
+.PHONY : pico-temp-hum
 
 # fast build rule for target.
-temp_oled/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/build
-.PHONY : temp_oled/fast
+pico-temp-hum/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/build
+.PHONY : pico-temp-hum/fast
 
 #=============================================================================
 # Target rules for targets named ELF2UF2Build
@@ -186,7 +186,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_devic
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
@@ -194,7 +194,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_devic
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
@@ -202,7 +202,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_devic
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
@@ -210,7 +210,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.ob
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
@@ -218,7 +218,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i:
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
@@ -226,7 +226,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s:
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
@@ -234,7 +234,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.ob
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
@@ -242,7 +242,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i:
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
@@ -250,7 +250,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s:
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
@@ -258,7 +258,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
@@ -266,7 +266,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
@@ -274,7 +274,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
@@ -282,7 +282,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.ob
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
@@ -290,7 +290,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i:
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
@@ -298,7 +298,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s:
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
@@ -306,7 +306,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
@@ -314,7 +314,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
@@ -322,7 +322,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
@@ -330,7 +330,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.ob
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
@@ -338,7 +338,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i:
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
@@ -346,7 +346,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s:
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
@@ -354,7 +354,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_dev
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
@@ -362,7 +362,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_dev
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
@@ -370,7 +370,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_dev
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
@@ -378,7 +378,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.ob
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
@@ -386,7 +386,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i:
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
@@ -394,7 +394,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s:
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
@@ -402,7 +402,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_dev
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
@@ -410,7 +410,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_dev
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
@@ -418,7 +418,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_dev
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
@@ -426,7 +426,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_dev
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
@@ -434,7 +434,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_dev
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
@@ -442,7 +442,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_dev
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
@@ -450,7 +450,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_devic
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
@@ -458,7 +458,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_devic
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
@@ -466,7 +466,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_devic
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
@@ -474,7 +474,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj: U
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
@@ -482,7 +482,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: Use
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
@@ -490,7 +490,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: Use
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
@@ -498,7 +498,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj: Users/
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.i: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
@@ -506,7 +506,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.i: Users/zh
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.s: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
@@ -514,7 +514,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.s: Users/zh
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
@@ -522,7 +522,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
@@ -530,7 +530,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i: 
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
@@ -538,7 +538,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s: 
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
@@ -546,7 +546,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
@@ -554,7 +554,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
@@ -562,7 +562,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
@@ -570,7 +570,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
@@ -578,7 +578,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
@@ -586,7 +586,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
@@ -594,7 +594,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.obj: Users/zhongyi
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.i: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
@@ -602,7 +602,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.i: Users/zhongyiji
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.s: Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
@@ -610,7 +610,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.s: Users/zhongyiji
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
@@ -618,7 +618,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.o
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
@@ -626,7 +626,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.i
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
@@ -634,7 +634,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.s
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
@@ -642,7 +642,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.obj: Use
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
@@ -650,7 +650,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.i: Users
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
@@ -658,7 +658,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.s: Users
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
@@ -666,7 +666,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.obj: Users/z
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.i
@@ -674,7 +674,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.i: Users/zho
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.s
@@ -682,7 +682,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.s: Users/zho
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/sem.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj
@@ -690,7 +690,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/sem.obj: Users/zho
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/sem.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.i
@@ -698,7 +698,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/sem.i: Users/zhong
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/sem.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.s
@@ -706,7 +706,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/sem.s: Users/zhong
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/time.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj
@@ -714,7 +714,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/time.obj: Users/zh
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/time.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i
@@ -722,7 +722,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/time.i: Users/zhon
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/time.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s
@@ -730,7 +730,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/time.s: Users/zhon
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
@@ -738,7 +738,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.obj
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
@@ -746,7 +746,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.i: 
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
@@ -754,7 +754,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.s: 
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/datetime.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj
@@ -762,7 +762,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/datetime.obj: User
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/datetime.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i
@@ -770,7 +770,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/datetime.i: Users/
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/datetime.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s
@@ -778,7 +778,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/datetime.s: Users/
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/pheap.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj
@@ -786,7 +786,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/pheap.obj: Users/z
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/pheap.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i
@@ -794,7 +794,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/pheap.i: Users/zho
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/pheap.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s
@@ -802,7 +802,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/pheap.s: Users/zho
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/queue.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj
@@ -810,7 +810,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/queue.obj: Users/z
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/queue.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i
@@ -818,7 +818,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/queue.i: Users/zho
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/queue.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s
@@ -826,7 +826,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/queue.s: Users/zho
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
@@ -834,7 +834,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj: Us
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
@@ -842,7 +842,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.i: User
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
@@ -850,7 +850,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.s: User
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
@@ -858,7 +858,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
@@ -866,7 +866,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i: 
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
@@ -874,7 +874,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s: 
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
@@ -882,7 +882,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.o
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
@@ -890,7 +890,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
@@ -898,7 +898,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
@@ -906,7 +906,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
@@ -914,7 +914,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
@@ -922,7 +922,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i: 
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
@@ -930,7 +930,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s: 
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
@@ -938,7 +938,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: 
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
@@ -946,7 +946,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: Us
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
@@ -954,7 +954,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: Us
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
@@ -962,7 +962,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj: Us
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
@@ -970,7 +970,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i: User
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
@@ -978,7 +978,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s: User
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
@@ -986,7 +986,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: Us
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
@@ -994,7 +994,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: User
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
@@ -1002,7 +1002,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: User
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
@@ -1010,7 +1010,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
@@ -1018,7 +1018,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: Us
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
@@ -1026,7 +1026,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: User
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
@@ -1034,7 +1034,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: User
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
@@ -1042,7 +1042,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: 
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
@@ -1050,7 +1050,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: Us
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
@@ -1058,7 +1058,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: Us
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
@@ -1066,7 +1066,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
@@ -1074,7 +1074,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: 
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
@@ -1082,7 +1082,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: 
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
@@ -1090,7 +1090,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: 
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
@@ -1098,7 +1098,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: Us
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
@@ -1106,7 +1106,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: Us
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
@@ -1114,7 +1114,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: 
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
@@ -1122,7 +1122,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: Us
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
@@ -1130,7 +1130,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: Us
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
@@ -1138,7 +1138,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchd
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
@@ -1146,7 +1146,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchd
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
@@ -1154,7 +1154,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchd
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
@@ -1162,7 +1162,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: 
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
@@ -1170,7 +1170,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: Us
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
@@ -1178,7 +1178,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: Us
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
@@ -1186,7 +1186,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aea
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
@@ -1194,7 +1194,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
@@ -1202,7 +1202,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: 
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
@@ -1210,7 +1210,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: 
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
@@ -1218,7 +1218,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
@@ -1226,7 +1226,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
@@ -1234,7 +1234,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
@@ -1242,7 +1242,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
@@ -1250,7 +1250,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
@@ -1258,7 +1258,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
@@ -1266,7 +1266,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
@@ -1274,7 +1274,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
@@ -1282,7 +1282,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_ro
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
@@ -1290,7 +1290,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_devi
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
@@ -1298,7 +1298,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_devi
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
@@ -1306,7 +1306,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_devi
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
@@ -1314,7 +1314,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.o
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
@@ -1322,7 +1322,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_ro
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
@@ -1330,7 +1330,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_ro
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
@@ -1338,7 +1338,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_ro
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
@@ -1346,7 +1346,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.ob
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
@@ -1354,7 +1354,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.i:
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
@@ -1362,7 +1362,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.s:
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
@@ -1370,7 +1370,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
@@ -1378,7 +1378,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int6
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
@@ -1386,7 +1386,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
@@ -1394,7 +1394,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
@@ -1402,7 +1402,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
@@ -1410,7 +1410,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aea
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -1418,7 +1418,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.o
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
@@ -1426,7 +1426,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.i
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
@@ -1434,7 +1434,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.s
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
@@ -1442,7 +1442,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: 
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
@@ -1450,7 +1450,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: Us
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
@@ -1458,7 +1458,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: Us
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
@@ -1466,7 +1466,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
@@ -1474,7 +1474,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: 
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
@@ -1482,7 +1482,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: 
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
@@ -1490,7 +1490,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binar
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
@@ -1498,7 +1498,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binar
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
@@ -1506,7 +1506,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binar
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1514,7 +1514,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
@@ -1522,7 +1522,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_d
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
@@ -1530,7 +1530,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_d
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
@@ -1538,7 +1538,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_d
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
@@ -1546,7 +1546,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: Us
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
@@ -1554,7 +1554,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: User
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
@@ -1562,7 +1562,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: User
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
@@ -1570,7 +1570,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_int
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
@@ -1578,7 +1578,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_int
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
@@ -1586,7 +1586,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_int
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
@@ -1594,7 +1594,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
@@ -1602,7 +1602,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
@@ -1610,7 +1610,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
@@ -1618,7 +1618,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
@@ -1626,7 +1626,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
@@ -1634,7 +1634,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -1642,7 +1642,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: 
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
@@ -1650,7 +1650,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: Us
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
@@ -1658,7 +1658,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: Us
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
@@ -1666,7 +1666,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id
 
 # target to build an object file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
@@ -1674,7 +1674,7 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id
 
 # target to preprocess a source file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
@@ -1682,32 +1682,32 @@ Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id
 
 # target to generate assembly for a file
 Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
-temp_oled.obj: temp_oled.c.obj
-.PHONY : temp_oled.obj
+pico-temp-hum.obj: pico-temp-hum.c.obj
+.PHONY : pico-temp-hum.obj
 
 # target to build an object file
-temp_oled.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/temp_oled.c.obj
-.PHONY : temp_oled.c.obj
+pico-temp-hum.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/pico-temp-hum.c.obj
+.PHONY : pico-temp-hum.c.obj
 
-temp_oled.i: temp_oled.c.i
-.PHONY : temp_oled.i
+pico-temp-hum.i: pico-temp-hum.c.i
+.PHONY : pico-temp-hum.i
 
 # target to preprocess a source file
-temp_oled.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/temp_oled.c.i
-.PHONY : temp_oled.c.i
+pico-temp-hum.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/pico-temp-hum.c.i
+.PHONY : pico-temp-hum.c.i
 
-temp_oled.s: temp_oled.c.s
-.PHONY : temp_oled.s
+pico-temp-hum.s: pico-temp-hum.c.s
+.PHONY : pico-temp-hum.s
 
 # target to generate assembly for a file
-temp_oled.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_oled.dir/build.make CMakeFiles/temp_oled.dir/temp_oled.c.s
-.PHONY : temp_oled.c.s
+pico-temp-hum.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-hum.dir/build.make CMakeFiles/pico-temp-hum.dir/pico-temp-hum.c.s
+.PHONY : pico-temp-hum.c.s
 
 # Help Target
 help:
@@ -1721,7 +1721,7 @@ help:
 	@echo "... bs2_default_bin"
 	@echo "... bs2_default_padded_checksummed_asm"
 	@echo "... bs2_default"
-	@echo "... temp_oled"
+	@echo "... pico-temp-hum"
 	@echo "... Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj"
 	@echo "... Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
 	@echo "... Users/zhongyijiang/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
@@ -1910,9 +1910,9 @@ help:
 	@echo "... Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj"
 	@echo "... Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
 	@echo "... Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
-	@echo "... temp_oled.obj"
-	@echo "... temp_oled.i"
-	@echo "... temp_oled.s"
+	@echo "... pico-temp-hum.obj"
+	@echo "... pico-temp-hum.i"
+	@echo "... pico-temp-hum.s"
 .PHONY : help
 
 

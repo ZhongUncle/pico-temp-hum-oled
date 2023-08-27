@@ -108,13 +108,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/tinyusb/CMakeLists.txt"
   "/Users/zhongyijiang/Desktop/pico/pico-sdk/tools/CMakeLists.txt"
   "/Users/zhongyijiang/Desktop/pico/pico-sdk/tools/FindELF2UF2.cmake"
-  "/Users/zhongyijiang/Desktop/pico/pico_temp_oled/CMakeLists.txt"
+  "/Users/zhongyijiang/Desktop/pico/pico-temp-hum/CMakeLists.txt"
   "CMakeFiles/3.27.1/CMakeASMCompiler.cmake"
   "CMakeFiles/3.27.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.27.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.27.1/CMakeSystem.cmake"
   "elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake"
-  "/Users/zhongyijiang/Desktop/pico/pico_temp_oled/pico_sdk_import.cmake"
+  "/Users/zhongyijiang/Desktop/pico/pico-temp-hum/pico_sdk_import.cmake"
   "/usr/local/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeASMCompiler.cmake.in"
   "/usr/local/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeASMInformation.cmake"
   "/usr/local/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeCCompiler.cmake.in"
@@ -325,7 +325,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/temp_oled.dir/DependInfo.cmake"
+  "CMakeFiles/pico-temp-hum.dir/DependInfo.cmake"
   "CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake"
   "pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/DependInfo.cmake"
   "pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake"

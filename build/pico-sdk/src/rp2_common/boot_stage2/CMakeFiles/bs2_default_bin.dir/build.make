@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.27.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zhongyijiang/Desktop/pico/pico_temp_oled
+CMAKE_SOURCE_DIR = /Users/zhongyijiang/Desktop/pico/pico-temp-hum
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zhongyijiang/Desktop/pico/pico_temp_oled/build
+CMAKE_BINARY_DIR = /Users/zhongyijiang/Desktop/pico/pico-temp-hum/build
 
 # Utility rule file for bs2_default_bin.
 
@@ -69,8 +69,8 @@ include pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/progr
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin: pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin: pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/zhongyijiang/Desktop/pico/pico_temp_oled/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
-	cd /Users/zhongyijiang/Desktop/pico/pico_temp_oled/build/pico-sdk/src/rp2_common/boot_stage2 && /Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/bin/arm-none-eabi-objcopy -Obinary /Users/zhongyijiang/Desktop/pico/pico_temp_oled/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf /Users/zhongyijiang/Desktop/pico/pico_temp_oled/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/zhongyijiang/Desktop/pico/pico-temp-hum/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
+	cd /Users/zhongyijiang/Desktop/pico/pico-temp-hum/build/pico-sdk/src/rp2_common/boot_stage2 && /Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/bin/arm-none-eabi-objcopy -Obinary /Users/zhongyijiang/Desktop/pico/pico-temp-hum/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf /Users/zhongyijiang/Desktop/pico/pico-temp-hum/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 bs2_default_bin: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin
 bs2_default_bin: pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
@@ -82,10 +82,10 @@ pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/build: bs2_de
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/build
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean:
-	cd /Users/zhongyijiang/Desktop/pico/pico_temp_oled/build/pico-sdk/src/rp2_common/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_bin.dir/cmake_clean.cmake
+	cd /Users/zhongyijiang/Desktop/pico/pico-temp-hum/build/pico-sdk/src/rp2_common/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_bin.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend:
-	cd /Users/zhongyijiang/Desktop/pico/pico_temp_oled/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zhongyijiang/Desktop/pico/pico_temp_oled /Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/boot_stage2 /Users/zhongyijiang/Desktop/pico/pico_temp_oled/build /Users/zhongyijiang/Desktop/pico/pico_temp_oled/build/pico-sdk/src/rp2_common/boot_stage2 /Users/zhongyijiang/Desktop/pico/pico_temp_oled/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/zhongyijiang/Desktop/pico/pico-temp-hum/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zhongyijiang/Desktop/pico/pico-temp-hum /Users/zhongyijiang/Desktop/pico/pico-sdk/src/rp2_common/boot_stage2 /Users/zhongyijiang/Desktop/pico/pico-temp-hum/build /Users/zhongyijiang/Desktop/pico/pico-temp-hum/build/pico-sdk/src/rp2_common/boot_stage2 /Users/zhongyijiang/Desktop/pico/pico-temp-hum/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend
 

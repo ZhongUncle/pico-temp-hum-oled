@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/zhongyijiang/Desktop/pico/pico_temp_oled/build/pico-sdk/tools/cmake_install.cmake")
-  include("/Users/zhongyijiang/Desktop/pico/pico_temp_oled/build/pico-sdk/src/cmake_install.cmake")
-  include("/Users/zhongyijiang/Desktop/pico/pico_temp_oled/build/pico-sdk/docs/cmake_install.cmake")
+  include("/Users/zhongyijiang/Desktop/pico/pico-temp-hum/build/pico-sdk/tools/cmake_install.cmake")
+  include("/Users/zhongyijiang/Desktop/pico/pico-temp-hum/build/pico-sdk/src/cmake_install.cmake")
+  include("/Users/zhongyijiang/Desktop/pico/pico-temp-hum/build/pico-sdk/docs/cmake_install.cmake")
 
 endif()
 
