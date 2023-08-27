@@ -5,18 +5,18 @@ cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
   "/Users/zhongyijiang/Desktop/pico/pico-sdk/tools/elf2uf2"
-  "/Users/zhongyijiang/Desktop/pico/pico-temp-hum/build/elf2uf2"
-  "/Users/zhongyijiang/Desktop/pico/pico-temp-hum/build/elf2uf2"
-  "/Users/zhongyijiang/Desktop/pico/pico-temp-hum/build/elf2uf2/tmp"
-  "/Users/zhongyijiang/Desktop/pico/pico-temp-hum/build/elf2uf2/src/ELF2UF2Build-stamp"
-  "/Users/zhongyijiang/Desktop/pico/pico-temp-hum/build/elf2uf2/src"
-  "/Users/zhongyijiang/Desktop/pico/pico-temp-hum/build/elf2uf2/src/ELF2UF2Build-stamp"
+  "/Users/zhongyijiang/Desktop/pico/pico-temp-hum-oled/build/elf2uf2"
+  "/Users/zhongyijiang/Desktop/pico/pico-temp-hum-oled/build/elf2uf2"
+  "/Users/zhongyijiang/Desktop/pico/pico-temp-hum-oled/build/elf2uf2/tmp"
+  "/Users/zhongyijiang/Desktop/pico/pico-temp-hum-oled/build/elf2uf2/src/ELF2UF2Build-stamp"
+  "/Users/zhongyijiang/Desktop/pico/pico-temp-hum-oled/build/elf2uf2/src"
+  "/Users/zhongyijiang/Desktop/pico/pico-temp-hum-oled/build/elf2uf2/src/ELF2UF2Build-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/Users/zhongyijiang/Desktop/pico/pico-temp-hum/build/elf2uf2/src/ELF2UF2Build-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/Users/zhongyijiang/Desktop/pico/pico-temp-hum-oled/build/elf2uf2/src/ELF2UF2Build-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/Users/zhongyijiang/Desktop/pico/pico-temp-hum/build/elf2uf2/src/ELF2UF2Build-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/Users/zhongyijiang/Desktop/pico/pico-temp-hum-oled/build/elf2uf2/src/ELF2UF2Build-stamp${cfgdir}") # cfgdir has leading slash
 endif()
