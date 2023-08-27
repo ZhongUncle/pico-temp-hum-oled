@@ -346,8 +346,11 @@ int main() {
         
         //生成字符串用来打印，分别存放到temp和hum字符数组中，然后再将其写入到缓冲数组buf中
         sprintf(temp, "temp = %.02f C", reading.temperature);
+        //这个printf是给串口USB输出，后面演示可以看到
+        printf("temp = %.02f C\n", reading.temperature);
         WriteString(buf, 0, 0, temp);
         sprintf(hum, "hum  = %.02f %%", reading.humidity);
+        printf("hum  = %.02f %%\n", reading.humidity);
         //由于行高为8，所以第二行写入的y值要加8，当然你如果想让行距好看一些，可以设置为10，比如说这里
         WriteString(buf, 0, 8, hum);
         
